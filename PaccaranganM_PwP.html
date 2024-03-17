@@ -6,7 +6,7 @@
         body {
             font-family: "Founders Grotesk";
             margin: 20px;
-            background-color: lime;
+            background: linear-gradient(135deg, #b6ff00, #00ff6a);
             background-size: cover;
 
         }
@@ -61,6 +61,21 @@
             height: auto;
             border-radius: 20px;
         }
+		 table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -91,6 +106,32 @@
         <p><b>Age:</b> 19 years old</p>
         <p><b>Course:</b> Bachelor of Science in Information Technology</p>
         <p><b>Address:</b> Villabuena, Santa Maria Isabela</p>
+    </section>
+	
+	<section>
+        <h2>Education</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>School</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2022-2023</td>
+                    <td>Isabela State University</td>
+                </tr>
+                <tr>
+                    <td>2016-2022</td>
+                    <td>Naganacan-Villabuena National High School</td>
+                </tr>
+                <tr>
+                    <td>2010-2016</td>
+                    <td>Villabuena Elementary School</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
 </main>
